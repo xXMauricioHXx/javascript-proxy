@@ -1,0 +1,21 @@
+{
+  "name": "javascript-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "daemon": "^1.1.0",
+    "init": "^0.1.2",
+    "ts-node-dev": "^1.1.8"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsnd --respawn --ignore-watch node_modules ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
